@@ -21,7 +21,6 @@ import type { Equal, Expect } from "../utils";
 // type a = ".3";
 // type b<T> = T extends `${Dot}${any}` ? "0" : false;
 // type c = b<a>;
-//   `${T}` extends `${infer First}${Dot}${any}` ? First extends '' ? '0' : First : `${T}`
 
 type Dot = ".";
 type Trunc<T extends string | number> =
