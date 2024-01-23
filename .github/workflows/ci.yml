@@ -3,7 +3,7 @@ name: "Integration"
 on:
   push:
     branches:
-      - "main"
+      - "test-ci"
 
 jobs:
   check-integration:
