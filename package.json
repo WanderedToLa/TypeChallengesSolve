@@ -1,5 +1,27 @@
 {
   "dependencies": {
     "typescript": "^5.1.3"
-  }
+  },
+  "name": "typechallengessolve",
+  "description": "TypeSolved: A comprehensive repository dedicated to providing solutions for various type challenges.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "wooseok",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WanderedToLa/TypeChallengesSolve.git"
+  },
+  "keywords": [
+    "type-challenges-solve"
+  ],
+  "author": "WanderedToLa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WanderedToLa/TypeChallengesSolve/issues"
+  },
+  "homepage": "https://github.com/WanderedToLa/TypeChallengesSolve#readme"
 }
